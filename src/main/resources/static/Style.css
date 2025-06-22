@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  background-image: url("/images/Tropics_Beach_Palms_Trees.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, button {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #e9ecef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

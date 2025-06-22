@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>スケジュールアプリ</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>スケジュール</h1>
+
+    <form id="scheduleForm">
+      <label for="date">日付:</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="title">タイトル:</label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="description">詳細:</label>
+      <input type="text" id="description" name="description" />
+
+      <button type="submit">追加</button>
+      <button type="button" id="cancelEditBtn" style="display:none;">キャンセル</button>
+    </form>
+   
+    <hr />
+
+    <label for="searchDate">日付で検索:</label>
+    <input type="date" id="searchDate" name="searchDate" />
+
+    <h2>予定一覧</h2>
+    <ul id="scheduleList"></ul>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
