@@ -1,5 +1,5 @@
 # Webスケジュールアプリ
-JavaScriptとSpring Bootで作成したシンプルなスケジュール管理Webアプリです。
+JavaScriptとSpring Bootで作成したシンプルなWebスケジュールアプリです。
 
 予定の追加、編集、削除、日付検索機能を備えたTodo形式のUIを備えています。
 
