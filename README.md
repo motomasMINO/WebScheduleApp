@@ -37,9 +37,9 @@ JavaScriptとSpring Bootで作成したシンプルなスケジュール管理We
 1. **リポジトリのクローン**
 
    ```bash
-   git clone https://github.com/motomasMINO/ScheduleApp-Web.git
+   git clone https://github.com/motomasMINO/WebScheduleApp.git
 
-   cd ScheduleApp-Web
+   cd WebScheduleApp
    ```
 
 2. **アプリ起動**
