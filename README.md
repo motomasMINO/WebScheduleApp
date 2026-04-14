@@ -29,7 +29,7 @@ JavaScriptとSpring Bootで作成したシンプルなスケジュール管理We
 - Git(バージョン管理)
 
 ## 🛠️ 動作環境
-- JDK 24(Java 11+)
+- JDK 25(Java 17+)
 - Spring Boot
 - Maven
 

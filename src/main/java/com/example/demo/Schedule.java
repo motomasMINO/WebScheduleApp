@@ -3,17 +3,18 @@ package com.example.demo;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+// 予定を表すエンティティクラス
 @Entity
 public class Schedule {
-
+    // IDは自動生成されるように設定
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
-    private String description;
-    private LocalDateTime startTime;
-    private LocalDateTime endTime;
+    private String title; // 予定のタイトル
+    private String description; // 予定の説明
+    private LocalDateTime startTime; // 予定の開始日時
+    private LocalDateTime endTime; // 予定の終了日時
 
     // ゲッターとセッター
     public Long getId() { return id; }
