@@ -13,10 +13,6 @@ public class Schedule {
 
     private String title; // 予定のタイトル
     private String description; // 予定の説明
-
-    @Column(nullable = false)
-    private String username; // 予定の所有者（ユーザー名）
-    
     private LocalDateTime startTime; // 予定の開始日時
     private LocalDateTime endTime; // 予定の終了日時
 
@@ -35,7 +31,4 @@ public class Schedule {
 
     public LocalDateTime getEndTime() { return endTime; }
     public void setEndTime(LocalDateTime endTime) { this.endTime = endTime; }
-
-    public String getUsername() { return username; }
-    public void setUsername(String username) { this.username = username; }
 }

@@ -1,10 +1,10 @@
-body.auth-page {
+body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
   padding: 20px;
 }
 
-.auth-container {
+.container {
   background-image: url("/images/Tropics_Beach_Palms_Trees.jpg");
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@ body.auth-page {
   box-shadow: 0 0 10px #ccc;
 }
 
-.auth-container form {
+form {
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +27,7 @@ label {
   font-weight: bold;
 }
 
-.auth-container input, .auth-container button {
+input, button {
   padding: 8px;
   margin-top: 5px;
   font-size: 16px;
